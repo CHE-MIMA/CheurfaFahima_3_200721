@@ -1,0 +1,79 @@
+.footer
+  {
+   background-color: rgb(58, 57, 57);
+   border: solid rgb(58, 57, 57)  1px;
+   width: 100%;
+   padding-top: 20px;
+   padding-left: 30px;
+   color: $color-white;
+   padding-bottom: 30px;
+   @include desktop
+   {
+    padding-left: 50px;
+    padding-right: 100px;
+   }
+   &__elements
+   {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+  
+     @include desktop
+     {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     }
+
+   }
+
+  &__logo
+  { 
+    font-family: Shrikhand;
+    color: $color-white;
+    font-size: 1em;
+    padding-top: 15px;
+  
+  }
+  &__resto
+  {
+    display: flex;
+    color: $color-white;
+    font-size: 1em;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  &__hands
+  {
+    display: flex;
+    color: $color-white;
+    font-size: 1em;
+    margin-top:15px;
+    font-weight: 600;
+  }
+  &__contenu
+  {
+    color: $color-white;
+    font-size: 1em;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  &__contact
+  {
+    color: $color-white;
+    font-size: 1em;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+   & p
+   {
+    margin-left: 15px;
+   }
+  }
+  .footer__hands i
+  {
+    font-size: 0.8em;
+  }
+  
+  
+

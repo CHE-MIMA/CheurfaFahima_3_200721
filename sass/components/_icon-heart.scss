@@ -1,0 +1,33 @@
+.heart-icon
+{
+ font-size: 25px;
+ padding-top: 15px;
+ padding-right: 15px;
+ font-weight: 300;
+ color: rgb(92, 88, 88);
+}
+  
+.heart-icon::after {
+    content: "\f004";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    position:absolute;
+    top: 84.5%;
+    right: 0.5px ;
+    transform: translate(-50%, -50%);
+    display: block;
+    font-size: 27px;
+    opacity: 0;
+    transition: 0.5s ease;
+    background: linear-gradient(to bottom, $colour-secondary, $colour-primary);
+    background-clip: text;
+    color: transparent;
+    @include desktop
+    {
+      right: 1px;
+    }
+  }
+  
+  .heart-icon:hover::after {
+    opacity: 1;
+  }

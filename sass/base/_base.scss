@@ -1,0 +1,36 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+ 
+    body
+   {
+     font-family: "roboto";
+     font-size: 1em;  
+   }
+   ul {
+     list-style: none;
+   }
+   
+   
+   h2 
+   {
+     font-size: 1.3em;
+     font-family: "roboto";
+     font-weight: bold;
+   }
+   h3{
+     font-size: 1.2em;
+     font-family: "roboto";
+   }
+    a
+    {
+      text-decoration: none;
+    }
+    :hover a
+    {
+      cursor: pointer;
+    }
